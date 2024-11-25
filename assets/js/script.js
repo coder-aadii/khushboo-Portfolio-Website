@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["HR Management", "People Management", "Employee Engagement", "Organizational Development", "News Anchoring"],
+    strings: ["Financial Management", "Accounting", "Financial Analysis", "Business Strategy", "News Anchoring"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
