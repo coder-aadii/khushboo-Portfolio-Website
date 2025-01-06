@@ -458,6 +458,99 @@ header .navbar ul li a:hover {
 /* about media queries ends*/
 /* about section ends */
 
+/* certificates section starts */
+.certificates {
+  min-height: 90vh;
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
+}
+
+.certificates h2 {
+  color: #fff;
+}
+
+.certificates .heading span {
+  color: rgb(255, 230, 0);
+}
+
+.certificates .container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.certificates .container .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display 3 certificates per row */
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+
+.certificates .container .certificate-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.certificates .container .certificate-item:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 8px 15px rgba(0, 2, 68, 0.8); /* Larger shadow effect */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.certificates .container .certificate-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease; /* Smooth image zoom effect */
+}
+
+.certificates .container .certificate-item:hover img {
+  transform: scale(1.1); /* Image zooms in slightly on hover */
+}
+
+.certificates .container .certificate-item span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.certificates .container .certificate-item:hover span {
+  opacity: 1; /* Make the title more visible on hover */
+}
+
+/* certificates media queries starts */
+@media screen and (max-width: 600px) {
+  .certificates .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .certificates .container .row {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 certificates per row for mobile */
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+
+  .certificates .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+/* certificate section ends here */
+
 /* skills section starts */
 .skills {
   min-height: 90vh;

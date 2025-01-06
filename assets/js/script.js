@@ -90,6 +90,21 @@ async function fetchData(type = "skills") {
     return data;
 }
 
+function showCertificates(certificates) {
+    let certificatesContainer = document.getElementById("certificatesContainer");
+    let certificateHTML = "";
+    certificates.forEach(certificate => {
+        certificateHTML += `
+        <div class="certificate-item">
+              <div class="info">
+                <img src=${certificate.icon} alt="certificate" />
+                <span>${certificate.name}</span>
+              </div>
+            </div>`
+    });
+    certificatesContainer.innerHTML = certificateHTML;
+}
+
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
@@ -231,6 +246,9 @@ srtop.reveal('.about .content p', { delay: 200 });
 srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
+/* SCROLL CERTIFICATES */
+srtop.reveal('.certificates .container', { interval: 200 });
+srtop.reveal('.certificates .container .certificate-item', { delay: 400 });
 
 /* SCROLL SKILLS */
 srtop.reveal('.skills .container', { interval: 200 });
