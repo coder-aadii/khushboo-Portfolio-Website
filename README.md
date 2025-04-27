@@ -17,12 +17,8 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawk.to, Font Awesome and JSON
 ![mockup720](https://res.cloudinary.com/deoegf9on/image/upload/v1745725900/Snapshot-1_kxqiuq.png)
 ![ss](https://res.cloudinary.com/deoegf9on/image/upload/v1745725901/Snapshot-2_bxagc9.png)
 
-
-<h2>📬 Contact</h2>
-
-Feel free to reach me through the below handles if you'd like to contact me.
-
 ## 📞 Contact
+Feel free to reach me through the below handles if you'd like to contact me.
 - **Email**: [adityaaerpule@gmail.com](mailto:adityaaerpule@gmail.com)
 - **LinkedIn**: [Aditya Aerpule](https://www.linkedin.com/in/aditya-aerpule-a22062309/)
 - **Instagram**: [@cod3r.aadi](https://www.instagram.com/cod3r.aadi)
